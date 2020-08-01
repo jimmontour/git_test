@@ -1,1 +1,1 @@
-This is Jim's first git project!
+This is an assignment from The Odin Project to test my skills with HTML and CSS.
