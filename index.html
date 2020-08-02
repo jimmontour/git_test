@@ -3,10 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Google Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Google</title>
 </head>
 <body>
-    <h1>Hello world</h1>
+
+    <div id="navbar">
+        <div id="left-nav">
+            <ul>
+                <li>About</li>
+                <li>Store</li>
+            </ul>
+        </div>
+        <div id="right-nav">
+            <ul>
+                <li>Gmail</li>
+                <li>Images</li>
+            </ul>
+      </div>
+    </div>
+    <div id="main-content">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" id="logo">
+        <form action="none">
+            <input type="text" id="search-bar">
+                <div id="mag-glass">
+                </div>
+            <label for="search-button"></label>
+            <button id="search-button" class="buttons">Google Search</button>
+            <label for="feeling-lucky-button"></label>
+            <button id="feeling lucky button" class="buttons">I'm Feeling Lucky</button>
+        </form>
+    </div>
 </body>
 </html>
