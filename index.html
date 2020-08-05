@@ -1,53 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Google</title>
-</head>
-<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div id="navbar">
-        <div id="left-nav">
-            <ul>
-                <li>About</li>
-                <li>Store</li>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Google</title>
+    </head>
+    <body>
+    <div class="page-content">
+        <nav class="navbar">
+            <ul class="left-nav">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>  
+             <ul class="right-nav">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                    <li><i class="fa fa-th fa-lg"></i></li>
+                    <li><img src="img/profile-picture.jpg" id="profile-picture" alt="Profile picture of the user"></li>
+            </ul>
+         </div>
+        </nav>
+
+        <!-- Container -->
+        <div class="container">
+            <img src="img/logo.png" class="logo" alt="Google logo">
+             <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <input type="text" name="txtBox">
+                <i class="fa fa-microphone"></i>
+            </div>
+            <ul class="btn">
+                <li>Google Search</li>
+                <li>I'm Feeling Lucky</li>
             </ul>
         </div>
-        <div id="right-nav">
-            <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-            </ul>
-      </div>
     </div>
-    <div id="main-content">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" id="logo">
-        <form action="none">
-            <input type="text" id="search-bar">
-                <div id="mag-glass">
-                </div>
-            <label for="search-button"></label>
-            <button id="search-button" class="buttons">Google Search</button>
-            <label for="feeling-lucky-button"></label>
-            <button id="feeling lucky button" class="buttons">I'm Feeling Lucky</button>
-        </form>
+        <!-- Footer -->
+        <div class="footer-container">
+            <div class="buffer">
 
-        
+            </div>
+            <footer class="footer">
+                <ul class="left-footer">
+                    <li>Advertising</li>
+                    <li>Business</li>
+                    <li>How Search Works</li>
+                </ul>
+                <ul class="right-footer">
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Settings</li>
+                </ul>
+            </footer>
     </div>
-    <footer>
-        <ul id="footer-left">
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search works</li>
-        </ul>
-        <ul id="footer-right">
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
-
-    </footer>
-</body>
-</html>
+    </body>
+    </html>
